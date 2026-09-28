@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrawal Glass Emporium | Murlipura Jaipur</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+
+    <!-- Navigation Bar -->
+    <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl">🪞</span>
+                <span class="font-bold text-lg sm:text-xl tracking-wide bg-gradient-to-r from-amber-200 to-amber-500 bg-clip-text text-transparent">Agrawal Glass Emporium</span>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#home" class="hover:text-amber-400 transition">Home</a>
+                <a href="#catalog" class="hover:text-amber-400 transition">Mirror Catalog</a>
+                <a href="#contact" class="hover:text-amber-400 transition">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        
+        <!-- Hero Section -->
+        <section id="home" class="relative py-20 px-4 sm:px-6 lg:px-8 text-center bg-gradient-to-b from-slate-900 to-slate-950 border-b border-slate-900">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6">
+                    Reflect Your Style with <span class="text-amber-400">Agrawal Glass Emporium</span>
+                </h1>
+                <p class="text-slate-400 text-lg mb-8">
+                    Discover premium LED mirrors, classic plain mirrors, and bespoke designer glass creations right here in Murlipura, Jaipur.
+                </p>
+                <a href="#catalog" class="inline-block bg-amber-500 hover:bg-amber-600 text-slate-950 font-semibold px-8 py-3 rounded-xl shadow-lg transition transform hover:-translate-y-0.5">
+                    Explore Mirrors
+                </a>
+            </div>
+        </section>
+
+        <!-- Mirror Catalog Section -->
+        <section id="catalog" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-3">Our Mirror Collection</h2>
+                <p class="text-slate-400">Choose from our exquisite range of designs</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1: LED Mirror -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl hover:border-amber-500/50 transition">
+                    <div class="h-56 overflow-hidden bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80" alt="LED Smart Mirror" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs uppercase tracking-wider font-semibold text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-full">Modern</span>
+                        <h3 class="text-xl font-bold mt-3 mb-2">LED Smart Mirrors</h3>
+                        <p class="text-slate-400 text-sm mb-6">Energy-efficient backlit mirrors featuring touch sensors, anti-fog technology, and adjustable lighting tones.</p>
+                        <a href="tel:9928355952" class="block text-center w-full bg-slate-800 hover:bg-amber-500 hover:text-slate-950 font-medium py-2.5 rounded-lg transition">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Plain Mirror -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl hover:border-amber-500/50 transition">
+                    <div class="h-56 overflow-hidden bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80" alt="Plain Glass Mirror" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs uppercase tracking-wider font-semibold text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-full">Classic</span>
+                        <h3 class="text-xl font-bold mt-3 mb-2">Plain Glass Mirrors</h3>
+                        <p class="text-slate-400 text-sm mb-6">High-definition crystal clear plain mirrors custom cut to any dimension for bathrooms, dressing rooms, and walls.</p>
+                        <a href="tel:9928355952" class="block text-center w-full bg-slate-800 hover:bg-amber-500 hover:text-slate-950 font-medium py-2.5 rounded-lg transition">Enquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Designer Mirror -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-xl hover:border-amber-500/50 transition">
+                    <div class="h-56 overflow-hidden bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80" alt="Designer Mirror" class="w-full h-full object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <span class="text-xs uppercase tracking-wider font-semibold text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-full">Artistic</span>
+                        <h3 class="text-xl font-bold mt-3 mb-2">Designer Mirrors</h3>
+                        <p class="text-slate-400 text-sm mb-6">Unique framed, bevelled, and geometric designer pieces created to elevate your living room and interior decor.</p>
+                        <a href="tel:9928355952" class="block text-center w-full bg-slate-800 hover:bg-amber-500 hover:text-slate-950 font-medium py-2.5 rounded-lg transition">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-slate-900 border-t border-slate-800 px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-xl mx-auto">
+                <h2 class="text-2xl font-bold mb-4">Visit Agrawal Glass Emporium</h2>
+                <p class="text-slate-400 text-sm mb-6">Get in touch with us for custom orders, bulk inquiries, and professional installation services.</p>
+                <div class="bg-slate-950 border border-slate-800 p-6 rounded-xl text-left space-y-3 text-sm text-slate-300">
+                    <p>📍 <strong class="text-slate-100">Location:</strong> Ganesh Nagar 4, Murlipura, Jaipur</p>
+                    <p>📞 <strong class="text-slate-100">Phone:</strong> <a href="tel:9928355952" class="text-amber-400 hover:underline">+91 99283 55952</a></p>
+                    <p>🕒 <strong class="text-slate-100">Hours:</strong> Mon - Sat: 10:00 AM - 8:00 PM</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-900 py-6 text-center text-xs text-slate-500">
+        <p>&copy; 2026 Agrawal Glass Emporium. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
